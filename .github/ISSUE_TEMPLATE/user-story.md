@@ -7,9 +7,9 @@ assignees: ''
 
 ---
 
-**As a** [role]  
- **I need** [function]  
- **So that** [benefit]  
+**As a customer,  
+ **I need to view detailed about a product (description, price, images),  
+ **So that I can make an informed decision on whether to purchase it.  
    
  ### Details and Assumptions
  * [document what you know]
@@ -17,7 +17,7 @@ assignees: ''
  ### Acceptance Criteria  
    
  ```gherkin
- Given [some context]
- When [certain action is taken]
- Then [the outcome of action is observed]
+ Given I am on the product listing page
+ When I click on a product
+ Then I should be redirected to the product details page displaying its name, price, and description.
  ```
